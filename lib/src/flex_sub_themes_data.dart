@@ -3021,9 +3021,9 @@ class FlexSubThemesData with Diagnosticable {
     properties.add(DiagnosticsProperty<bool>(
         'bottomNavigationBarMutedUnselectedLabel',
         bottomNavigationBarMutedUnselectedLabel));
-    properties.add(EnumProperty<double>('bottomNavigationBarSelectedIconSize',
+    properties.add(DiagnosticsProperty<double>('bottomNavigationBarSelectedIconSize',
         bottomNavigationBarSelectedIconSize));
-    properties.add(EnumProperty<double>('bottomNavigationBarUnselectedIconSize',
+    properties.add(DiagnosticsProperty<double>('bottomNavigationBarUnselectedIconSize',
         bottomNavigationBarUnselectedIconSize));
     properties.add(EnumProperty<SchemeColor>(
         'bottomNavigationBarSelectedIconSchemeColor',
@@ -3113,9 +3113,9 @@ class FlexSubThemesData with Diagnosticable {
     properties.add(DiagnosticsProperty<bool>(
         'navigationRailMutedUnselectedLabel',
         navigationRailMutedUnselectedLabel));
-    properties.add(EnumProperty<double>(
+    properties.add(DiagnosticsProperty<double>(
         'navigationRailSelectedIconSize', navigationRailSelectedIconSize));
-    properties.add(EnumProperty<double>(
+    properties.add(DiagnosticsProperty<double>(
         'navigationRailUnselectedIconSize', navigationRailUnselectedIconSize));
     properties.add(EnumProperty<SchemeColor>(
         'navigationRailSelectedIconSchemeColor',
